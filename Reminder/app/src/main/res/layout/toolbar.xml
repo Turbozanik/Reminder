@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/end"
+    android:gravity="center|end"
+    android:id="@+id/auth_toolbar"
+    android:theme="@style/AppTheme">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="26dp"
+            android:id="@+id/drawer_button"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/menu_active"
+            android:scaleType="fitXY"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:descendantFocusability="blocksDescendants"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/toolbarTv"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/drawer_button"
+            android:layout_toEndOf="@+id/drawer_button"
+            android:textColor="@android:color/white"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

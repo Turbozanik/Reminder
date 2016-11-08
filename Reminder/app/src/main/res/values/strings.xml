@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Reminder</string>
+    <string name="actions">События</string>
+    <string name="persons">Люди</string>
+    <string name="update">Обновление</string>
+    <string name="our_actions">Наши события</string>
+    <string name="upcoming_activity">Скоро состоится событие</string>
+    <string name="special_activities">Особые события на этой неделе</string>
+    <string name="home">Главная</string>
+</resources>

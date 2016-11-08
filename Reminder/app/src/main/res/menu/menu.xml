@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none"
+        android:id="@+id/a1">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="@string/home"/>
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/a2">
+        <item
+            android:id="@+id/actions"
+            android:icon="@drawable/icon_history_navigation_drawer"
+            android:title="@string/actions"/>
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/a3">
+        <item
+            android:id="@+id/persons"
+            android:icon="@drawable/account_default"
+            android:title="@string/persons"/>
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/a4">
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/icon_sync"
+            android:title="@string/update" />
+    </group>
+</menu>
